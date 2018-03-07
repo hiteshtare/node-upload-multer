@@ -1,0 +1,17 @@
+<html>
+
+<head>
+    <title>View Image by Unique Id</title>
+</head>
+
+<body>
+    <img src="../../assets/download.jpg" alt="download">
+
+    <%= JSON.stringify(serverimage) %>
+
+        <img id="my_img" src="<%= JSON.stringify(serverimage.originalname) %>" alt="">
+
+        <img src="<%= JSON.stringify(serverimage.originalname) %>" alt="">
+</body>
+
+</html>
